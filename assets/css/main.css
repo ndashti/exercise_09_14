@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.main {
+    padding: 10px 40px 0px 40px;
+}
+
+.main h1 {
+    color: red;
+}
+h2::before {
+    content: "  ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:lightgreen;
+}
+
+
+.myfont{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.bor-bot{
+    border-bottom: 8px solid red;
+    width: 30px;
+    border-radius: 20px;
+}
