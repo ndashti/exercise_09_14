@@ -10,14 +10,6 @@ body{
 .main h1 {
     color: red;
 }
-h2::before {
-    content: "  ";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color:lightgreen;
-}
-
 
 .myfont{
     font-family: 'Fuzzy Bubbles', cursive;
